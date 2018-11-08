@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 
 /**
  * update user list that is shown on the page
- * @author  Michael Ziskin
+ * @author 
  */
 public class UpdateView extends HttpServlet {
 

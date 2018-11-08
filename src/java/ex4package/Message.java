@@ -4,7 +4,7 @@ package ex4package;
 
 /**
  * object for storing msgs in session
- * @author  Michael Ziskin
+ * @author  
  */
 public class Message {
 

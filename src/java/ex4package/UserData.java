@@ -2,7 +2,7 @@ package ex4package;
 
 /**
  * userBean holds user data
- * @author  Michael Ziskin
+ * @author 
  */
 public class UserData {
     
