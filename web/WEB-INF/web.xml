@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <listener>
+        <listener-class>ex4package.SessionListner</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>ex4package.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateStatus</servlet-name>
+        <servlet-class>ex4package.UpdateStatus</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>ex4package.Logout</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateView</servlet-name>
+        <servlet-class>ex4package.UpdateView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateStatus</servlet-name>
+        <url-pattern>/UpdateStatus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateView</servlet-name>
+        <url-pattern>/UpdateView</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+</web-app>
