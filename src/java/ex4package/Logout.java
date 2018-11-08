@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * logout servlet
- * @author Amichai Tribitch and Michael Ziskin
+ * @author  Michael Ziskin
  */
 public class Logout extends HttpServlet {
 

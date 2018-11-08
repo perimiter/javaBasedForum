@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSessionListener;
 
 /**
  * handle session destruction event
- * @author Amichai Tribitch and Michael Ziskin
+ * @author Michael Ziskin
  */
 public class SessionListner implements HttpSessionListener {
 

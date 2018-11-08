@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * login to website
- * @author Amichai Tribitch and Michael Ziskin
+ * @author  Michael Ziskin
  */
 public class Login extends HttpServlet {
 

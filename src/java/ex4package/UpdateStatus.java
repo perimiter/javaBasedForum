@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 /**
  * update the status for a user
  *
- * @author Amichai Tribitch and Michael Ziskin
+ * @author Michael Ziskin
  */
 public class UpdateStatus extends HttpServlet {
 
